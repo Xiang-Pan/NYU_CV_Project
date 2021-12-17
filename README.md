@@ -1,7 +1,7 @@
 <!--
  * @Author: Xiang Pan
  * @Date: 2021-11-12 23:27:39
- * @LastEditTime: 2021-12-16 23:16:51
+ * @LastEditTime: 2021-12-16 23:19:33
  * @LastEditors: Xiang Pan
  * @Description: 
  * @FilePath: /project/README.md
@@ -9,6 +9,8 @@
 -->
 # Sim4Real: Simulation Data for Realistic Semantic Segmentation Model
 Xiang Pan (xp2030), Yuxuan Sun (ys4375)
+
+![Dataset Generation](./figures/demo.gif)
 
 
 # models and datasets
