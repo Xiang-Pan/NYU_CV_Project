@@ -1,7 +1,7 @@
 <!--
  * @Author: Xiang Pan
  * @Date: 2021-11-12 23:27:39
- * @LastEditTime: 2021-12-16 23:23:36
+ * @LastEditTime: 2021-12-16 23:27:51
  * @LastEditors: Xiang Pan
  * @Description: 
  * @FilePath: /project/README.md
@@ -17,7 +17,9 @@ Check our [slides](./docs/XiangPan_YuxuanSun_PPT.pdf)
 
 # Models and Datasets
 All the simulation trained models are stored in cached_models and cached_datasets. The model loader and dataset definition can be found as task_models and task_datasets.
- 
+
+We will sort our datasets and release via goold drive.
+
 # How to run the code
 you can check the ./scripts for locally running. And you can also use scripts in ./slurm_scripts to run in HPC of NYU.
 
@@ -31,4 +33,7 @@ python main.py --gpu 0 --task_name=KITTI
 python main.py --gpu 0 --task_name=KITTI --load_checkpoint_path=cached_models/unity-streetview-low-res_mIOU=0.77.ckpt --log_name=streetview-low_kitti
 ```
 
+
+# Dataset Generation
+Our generation pipeline is based on https://github.com/Unity-Technologies/com.unity.perception and https://github.com/Unity-Technologies/Unity-Simulation-Smart-Camera-Outdoor.
 
