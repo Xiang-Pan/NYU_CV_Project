@@ -1,7 +1,7 @@
 <!--
  * @Author: Xiang Pan
  * @Date: 2021-11-12 23:27:39
- * @LastEditTime: 2021-12-16 23:19:33
+ * @LastEditTime: 2021-12-16 23:22:07
  * @LastEditors: Xiang Pan
  * @Description: 
  * @FilePath: /project/README.md
@@ -10,10 +10,12 @@
 # Sim4Real: Simulation Data for Realistic Semantic Segmentation Model
 Xiang Pan (xp2030), Yuxuan Sun (ys4375)
 
+Check our ![slides](./docs/XiangPan_YuxuanSun_PPT.pdf)
+
 ![Dataset Generation](./figures/demo.gif)
 
 
-# models and datasets
+# Models and Datasets
 All the simulation trained models are stored in cached_models and cached_datasets. The model loader and dataset definition can be found as task_models and task_datasets.
  
 # How to run the code
@@ -28,6 +30,5 @@ python main.py --gpu 0 --task_name=KITTI
 ```
 python main.py --gpu 0 --task_name=KITTI --load_checkpoint_path=cached_models/unity-streetview-low-res_mIOU=0.77.ckpt --log_name=streetview-low_kitti
 ```
-
 
 
