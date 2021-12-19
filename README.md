@@ -28,7 +28,7 @@ you can check the ./scripts for locally running. And you can also use scripts in
 ```
 python main.py --gpu 0 --task_name=KITTI
 ```
-## Trasfer from simulation learned model
+## Transfer from simulation learned model
 ```
 python main.py --gpu 0 --task_name=KITTI --load_checkpoint_path=cached_models/unity-streetview-low-res_mIOU=0.77.ckpt --log_name=streetview-low_kitti
 ```
